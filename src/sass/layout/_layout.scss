@@ -1,0 +1,23 @@
+html {
+  
+    body {
+      background-color: $bg-primary;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      box-shadow: inset 2px 2px 2px rgba(88, 88, 82, 0.85), inset -2px 2px 2px rgba(166, 168, 156, 0.85);
+  
+      .App {
+        /*import header */
+        @import "./header";
+        /* Import pages */
+          @import "../pages/homepage";
+        /* import footer */
+        @import "./footer";
+      }
+    }
+  }
