@@ -18,7 +18,7 @@ function Homepage({title}) {
           </div>
           <div>
             <h3>Qui suis-je ?</h3>
-            <p>Bonjour, et bienvenue, je m'appelle Camille Chassaing, j'ai 29 ans.</p>
+            <p>Je m'appelle Camille Chassaing, j'ai 29 ans.</p>
             <p>Il y a quelques années, je me suis pris de passion pour le développement web. J'ai donc décidé de me réorientée.
               J'ai commencé par une formation pour adulte (Simplon), qui m'a permis d'obtenir un bac +2 développeur 
               web et web mobile, et 2 certificats ( Opquast et méthode agile ). Souhaitant poursuivre mes connaissance 

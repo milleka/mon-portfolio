@@ -1,6 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import CompetencesInfo from './informations/CompetencesInfo'
+import ExperiencesInfo from './informations/ExperiencesInfo'
+import FormationsInfo from './informations/FormationsInfo'
+import LoisirsInfo from './informations/LoisirsInfo'
+
 const Cards = ({title, src}) => {
 
     const Onclick = () => {
@@ -21,6 +26,23 @@ const Cards = ({title, src}) => {
         }
     }
 
+    const Display = () => {
+        var display = title;
+
+        switch(display) {
+            case 'Compétences':
+                return <CompetencesInfo/>;
+            case 'Expériences':
+                return <ExperiencesInfo />;
+            case 'Formations':
+                return <FormationsInfo />;
+            case 'Loisirs':
+                return <LoisirsInfo />;
+            default:
+                return null;
+        }
+    }
+
     return (
         <div className="block">
             <div className="cards">
@@ -29,8 +51,8 @@ const Cards = ({title, src}) => {
                     <h2>{title}</h2>
                 </div>
                 <div className="card-back">
-                    <p>test</p>
-                    <NavLink to={Onclick} exact>En savoir plus</NavLink>
+                    {Display()}
+                    <NavLink to={Onclick} exact className="link">En savoir plus</NavLink>
                 </div>
             </div>
         </div>

@@ -1,0 +1,117 @@
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .party {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        i {
+            text-align: center;
+            font-size: 1.7em;
+            margin: 0.4em;
+            p {
+                font-size: 0.4em;
+                color: $black;
+                padding-top: 0.2em;
+            }
+        }
+        .gif {
+            width: 55%;
+            border-radius: 0.3em;
+        }
+        .opquast {
+            display: flex;
+            flex-direction:column;
+            justify-contetn: center;
+            align-items: center;
+            img {
+                width: 1.7em;
+                height: 1.7em;
+                margin: 0 0.4em;
+            }
+            p {
+                font-size: 0.6em;
+                color: $black;
+                padding-top: 0.2em;
+            }
+        }
+
+        .wp {
+            color: #0C3CC6;
+        }
+
+        .react {
+            color : #37EEF3;
+        }
+
+        .html {
+            color : #F05318;
+        }
+
+        .css {
+            color: #187AF0;
+        }
+
+        .git {
+            color : #F05318;
+        }
+
+        .sass {
+            color: #F46FF0;
+        }
+
+        .bt {
+            color: #7E10DA;
+        }
+
+        .angu {
+            color: #D52213;
+        }
+
+        .lrv {
+            color : #F05318;
+        }
+
+        .node {
+            color: #52CA52;
+        }
+
+        .dock {
+            color: #52CAC8;
+        }
+    }
+
+    //experienceInfo
+    .experience {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 63vh;
+        .party {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .xp {
+            width: 65%;
+            }
+            .fm {
+                width: 45%;
+            }
+            i {
+                font-size: 2.3em;
+                color: #C6440C;
+            }
+            p {
+                color: $black;
+                text-align: center;
+                margin-top: 0.3em;
+            }
+
+            .bold {
+                font-weight: bold;
+            }
+        }
+    }
+}

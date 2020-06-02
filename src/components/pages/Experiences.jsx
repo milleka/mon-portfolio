@@ -6,9 +6,9 @@ const Experiences = ({title}) => {
     return (
         <>
         <Header/>
-        <div>
+        <main className='App-main'>
             <h2>{title}</h2>
-        </div>
+        </main>
         <Footer/>
         </>
     );
