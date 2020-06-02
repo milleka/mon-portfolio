@@ -1,7 +1,30 @@
 .App-main {
+    display:flex;
+    flex-direction: column;
     padding-top: 4.05rem;
     padding-bottom: 3.75rem;
-    p {
-        color: white;
+    min-height: 65vh;
+    .presentation {
+        display: flex;
+        margin: 0 2vw 5vh 2vw;
+        width: 90%;
+        .image {
+            margin: 0 2.5vw;
+            img {
+                height: 100%;
+                width: 85%;
+                border-radius: 10px;
+            }
+        }
+        p {
+        padding: 0.2rem;
+        text-align: justify;
+        }
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
     }
 }

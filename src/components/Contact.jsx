@@ -1,10 +1,16 @@
 import React from 'react';
+import Header from './layout/Header';
+import Footer from './layout/Footer';
 
-const Contact = () => {
+const Contact = ({title}) => {
     return (
-        <div>
-            <h2>Page contact</h2>
-        </div>
+        <>
+        <Header />
+        <main className='App-main'>
+        <h2>{title}</h2>
+        </main>
+        <Footer />
+        </>
     );
 };
 
