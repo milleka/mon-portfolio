@@ -3,6 +3,9 @@
 
     .etude {
         margin: 0 4em 4em 4em;
+        @media screen and (max-width: 425px) {
+            margin: 0 1em 4em 1em;
+        }
         .party {
             display: flex;
             flex-direction: column;
@@ -49,8 +52,15 @@
                 justify-content: space-around;
                 align-items: center;
                 margin-top: 2em;
+                @media screen and (max-width: 768px) {
+                    flex-direction: column;
+                }
                 .image {
                     width: 40%;
+                    @media screen and (max-width: 768px) {
+                        width: 70%;
+                        margin-bottom: 2em;
+                    }
                     img {
                         border-radius: 1em;
                     }
@@ -58,6 +68,9 @@
 
                 .text {
                     width: 40%;
+                    @media screen and (max-width: 768px) {
+                        width: 90%;
+                    }
                     p {
                         color: $black;
                         line-height: 1.5em;

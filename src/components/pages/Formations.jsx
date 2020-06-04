@@ -78,7 +78,7 @@ const Formations = ({title}) => {
             </div>
             <div className="etude">
                 <div className="party">
-                    <i class="fas fa-store-alt"></i>
+                    <i className="fas fa-store-alt"></i>
                     <p className="bold">BTS Management des Unités Commerciales</p>
                 </div>
                 <div className="info">

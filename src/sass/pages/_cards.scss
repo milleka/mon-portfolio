@@ -3,6 +3,9 @@
             width: 20%;
             min-height: 60vh;
             margin: 0 1em 3em 1em;
+            @media screen and (max-width: 425px) {
+              margin-bottom: 11em;
+          }
 
             .cards {
                 position: absolute;

@@ -82,7 +82,7 @@ const Loisirs = ({title}) => {
             <div className="hobby">
                 <div className="party">
                     <h3>Voyager</h3>
-                    <i class="fas fa-plane plane"></i>
+                    <i className="fas fa-plane plane"></i>
                 </div>
                 <div className="info">
                     <div className="image">

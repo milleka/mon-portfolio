@@ -11,13 +11,13 @@ function Homepage({title}) {
     <>
       <Header />
 
-      <main className='App-main'>>
+      <main className='App-main center'>
         <h2>{title}</h2>
         <div className="presentation">
           <div className="image">
             <img src="img/moi.png" alt="mon logo" title="Accueil"/>
           </div>
-          <div>
+          <div className="text">
             <h3>Qui suis-je ?</h3>
             <p>Je m'appelle Camille Chassaing, j'ai 29 ans.</p>
             <p>Il y a quelques années, je me suis pris de passion pour le développement web. J'ai donc décidé de me réorientée.
@@ -32,10 +32,14 @@ function Homepage({title}) {
           </div>
         </div>
         <div className="cards">
-          <Cards title="Compétences" src="img/competences.jpg"/>
-          <Cards title="Expériences" src="img/experiences.jpg" />
-          <Cards title="Formations" src="img/formation.jpg" />
-          <Cards title="Loisirs" src="img/loisir.jpg" />
+          <div className="ligne espace">
+            <Cards title="Compétences" src="img/competences.jpg"/>
+            <Cards title="Expériences" src="img/experiences.jpg" />
+          </div>
+          <div className="ligne">
+            <Cards title="Formations" src="img/formation.jpg" />
+            <Cards title="Loisirs" src="img/loisir.jpg" />
+          </div>
         </div>
       </main>
 

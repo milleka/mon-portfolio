@@ -15,7 +15,7 @@ const FormationsInfo = () => {
                     <p>Développeur web et web mobile</p>
                 </div>
                 <div className="party">
-                    <i class="fas fa-store-alt"></i>
+                    <i className="fas fa-store-alt"></i>
                     <p className="bold">BTS Management des Unités Commerciales</p>
                 </div>
             </div>

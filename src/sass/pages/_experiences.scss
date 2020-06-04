@@ -3,6 +3,9 @@
 
     .experience {
         margin: 0 4em 4em 4em;
+        @media screen and (max-width: 425px) {
+                margin: 0 1em 4em 1em;
+        }
         .party {
             display: flex;
             flex-direction: column;

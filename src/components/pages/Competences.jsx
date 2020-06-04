@@ -40,13 +40,21 @@ const Competences = ({title}) => {
                 </div>
             </div>
             <div className="competences right">
+                <div className="information none">
+                    <h4>Langages Appris</h4>
+                    <div className="party">
+                        <i className="fab fa-angular angu"><p>Angular</p></i>
+                        <i className="fab fa-laravel lrv"><p>Laravel</p></i>
+                        <i className="fab fa-node-js node"><p>Nodejs</p></i>
+                    </div>
+                </div>
                 <div className="text">
                     <p>
                         Lors de ma formation à Simplon j'ai pu réaliser un projet pour un photographe sous laravel et en utilisant un bundle admin qui s'appelle voyageur. Lors de
                         ma période à 3il, j'ai pu travailler et apprendre, angular et Nodejs, avec des exercices et des projets fictif.
                     </p>
                 </div>
-                <div className="information">
+                <div className="information none2">
                     <h4>Langages Appris</h4>
                     <div className="party">
                         <i className="fab fa-angular angu"><p>Angular</p></i>
@@ -81,13 +89,24 @@ const Competences = ({title}) => {
                 </div>
             </div>
             <div className="competences right2">
+                <div className="information none">
+                    <h4>Certifications obtenues</h4>
+                    <div className="party">
+                        <i className="fab fa-docker dock"><p>Docker</p></i>
+                        <div className="opquast">
+                            <img src="img/badge-opquast.png" alt="mon logo" title="Accueil" className="adapt"/>
+                            <p>Opquast</p>
+                        </div>
+                        <i className="fas fa-spinner agile"><p>Méthode agile</p></i>
+                    </div>
+                </div>
                 <div className="text">
                     <p>
                         Grâce au cour sur udemy, j'ai pu acquérir des compétences sur docker, reactjs ou récemment Python. Pendant ma formation avec simplon,
                         J'ai passé deux certification, dont une avec un jury, qui m'on permis d'obtenir la certification Opquast (780pts niveau Confirmé) et Agile qui officialise ma compétence à utiliser les méthodes agile, scrum en particulier.
                     </p>
                 </div>
-                <div className="information">
+                <div className="information none2">
                     <h4>Certifications obtenues</h4>
                     <div className="party">
                         <i className="fab fa-docker dock"><p>Docker</p></i>
