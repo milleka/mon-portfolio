@@ -11,23 +11,23 @@
         padding: 2em;
     
         &.right {
-            -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
-            animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
+            -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+            animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
         }
     
         &.right2 {
-            -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 5s both;
-            animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 5s both;
+            -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s both;
+            animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s both;
         }
     
         &.left {
-            -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
-            animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+            -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+            animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
         }
     
         &.left2 {
-            -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4s both;
-            animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4s both;
+            -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.5s both;
+            animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.5s both;
         }
     
         .information {

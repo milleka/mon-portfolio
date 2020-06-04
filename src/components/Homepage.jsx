@@ -3,6 +3,7 @@ import Header from './layout/Header'
 import Footer from './layout/Footer'
 
 import Cards from './Cards'
+import'animate.css'
 
 function Homepage({title}) {
 
@@ -10,7 +11,7 @@ function Homepage({title}) {
     <>
       <Header />
 
-      <main className='App-main'>
+      <main className='App-main'>>
         <h2>{title}</h2>
         <div className="presentation">
           <div className="image">

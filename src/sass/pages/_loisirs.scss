@@ -1,0 +1,91 @@
+.loisir {
+    align-items: center;
+
+    .hobby {
+        margin: 0 4em 4em 4em;
+        width: 80%;
+        .party {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            h3 {
+                color: $black;
+                padding: 0;
+            }
+
+            i {
+                margin-left: 1em;
+                font-size: 2em;
+            }
+
+            .ball {
+                -webkit-animation: bounce-top 1.5s linear infinite both;
+                animation: bounce-top 1.5s linear infinite both;
+                color: rgb(184, 85, 4);
+            }
+
+            .ustensils {
+                -webkit-animation: wobble-hor-bottom 1s infinite both;
+                animation: wobble-hor-bottom 1s infinite both;
+                color: rgb(94, 93, 93);
+            }
+
+            .game {
+                -webkit-animation: vibrate-1 0.6s linear infinite both;
+                animation: vibrate-1 0.6s linear infinite both;
+                color: rgb(241, 228, 228);
+            }
+
+            .tv {
+                -webkit-animation: blink-1 2s infinite both;
+                animation: blink-1 2s infinite both;
+            }
+
+            .plane {	
+                -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+                animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+                color: rgb(70, 68, 68);
+            }
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: justify;
+            background-color: $bg-white;
+            box-shadow:  10px 10px 20px #414b69, 
+            -10px -10px 20px #6977a7;
+            border: solid 1px $text-hover;
+            padding: 1em;
+            border-radius: 10px;
+            margin: 1em;
+
+
+            .image {
+                img {
+                    border-radius: 1em;
+                }
+            }
+
+            .citation {
+                p {
+                    color: $black;
+                    line-height: 1.5em;
+                    padding: 0.5em;
+                    a {
+                        text-decoration: none;
+                        color: $black;
+                        font-weight: bold;
+                        transition: all 0.4s ease-out;
+                        &:hover {
+                            color:$text-hover;
+                        }
+                    }
+                }
+            }
+        }
+    }  
+}
+  
+  
