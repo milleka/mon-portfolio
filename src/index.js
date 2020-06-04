@@ -28,7 +28,7 @@ class Root extends Component {
             <Route
               exact
               path='/contact'
-              render={routeProps => <Contact {...routeProps} title={`Contacter-moi !`} />}
+              render={routeProps => <Contact {...routeProps} title={`Contactez-moi !`} />}
             />
             <Route
               exact

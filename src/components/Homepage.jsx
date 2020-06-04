@@ -11,7 +11,7 @@ function Homepage({title}) {
     <>
       <Header />
 
-      <main className='App-main center'>
+      <main className='App-main'>
         <h2>{title}</h2>
         <div className="presentation">
           <div className="image">
