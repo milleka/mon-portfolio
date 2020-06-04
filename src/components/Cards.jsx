@@ -21,8 +21,7 @@ const Cards = ({title, src}) => {
             case 'Loisirs':
                 return "/loisirs";
             default:
-                console.log(`erreur de contenu ${link}`);
-                break;
+                return null;
         }
     }
 
