@@ -1,0 +1,31 @@
+html {
+  
+    body {
+      background: $bg-primary;
+      background: -webkit-linear-gradient(to right, $bg-primary, $bg-principal);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, $bg-primary, $bg-principal); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      box-shadow: inset 2px 2px 2px rgba(88, 88, 82, 0.85), inset -2px 2px 2px rgba(166, 168, 156, 0.85);
+  
+      .App {
+        /*import header */
+        @import "./header";
+        /* Import pages */
+          @import "../pages/homepage";
+          @import "../pages/cards";
+          @import "../pages/competences";
+          @import "../pages/experiences";
+          @import "../pages/formations";
+          @import "../pages/loisirs";
+          @import "../pages/contact";
+        /* import footer */
+        @import "./footer";
+      }
+    }
+  }

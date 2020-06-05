@@ -1,0 +1,54 @@
+.App-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: $text-primary;
+    box-shadow: 0 2px 2px rgba(255, 255, 255, 0.85), 0 2px 2px rgba(255, 255, 255, 0.85);
+    .logo {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 5em;
+            margin-left: 1em;
+        }
+    }
+    h1 {
+        text-align: center;
+        width: 60%;
+        @media screen and (max-width: 375px) {
+            font-size: 1.5em;
+        }
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        @media screen and (max-width: 425px) {
+           flex-direction: column;
+        }
+        a {
+            text-decoration: none;
+            color: $text-primary;
+            i {
+                font-size: 1.5em;
+                transition: all 0.4s ease-out;
+                &:hover {
+                    color: $text-hover;
+                }
+            }
+        }
+        .link {
+            margin: 1em;
+            @media screen and (max-width: 425px) {
+                margin: 0.5em;
+             }
+            &.active {
+              color: $text-hover;
+            }
+        }
+
+    }
+  }

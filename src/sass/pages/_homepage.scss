@@ -1,0 +1,79 @@
+.App-main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4.05rem;
+    padding-bottom: 3.75rem;
+    min-height: 65vh;
+    .presentation {
+        display: flex;
+        margin: 0 2vw 5vh 2vw;
+        width: 90%;
+        @media screen and (max-width: 425px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        .image {
+            margin: 0 2.5vw;
+            @media screen and (max-width: 768px) {
+                width: 40%;
+            }
+            @media screen and (max-width: 425px) {
+                margin-bottom: 3em;
+                width: 60%;
+                display: flex;
+                justify-content: center;
+            }
+            img {
+                height: auto;
+                width: 85%;
+                border-radius: 10px;
+            }
+        }
+        .text {
+            @media screen and (max-width: 768px) {
+                width: 80%;
+            }
+            p {
+                padding: 0.2rem;
+                text-align: justify;
+                line-height: 1.2em;
+            }
+        }
+    }
+    .cards {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2rem 0;
+        width: 90%;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+
+        .ligne {
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+
+            @media screen and (max-width: 768px) {
+                width: 80%;
+            }
+            @media screen and (max-width: 425px) {
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+            }
+        }
+
+        .espace {
+            @media screen and (max-width: 768px) {
+                margin-bottom: 8em;
+            }
+            @media screen and (max-width: 425px) {
+                margin-bottom: 1em;
+            }
+        }
+    }
+}
