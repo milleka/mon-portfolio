@@ -31,11 +31,14 @@ const Competences = ({title}) => {
                 </div>
                 <div className="text">
                     <p>
-                        J'ai pu et j'ai eu la chance de pouvoir travailler sur certain projet sur des languages comme
-                        ReactJs, symfony mais aussi sur des CMS comme wordpress. Lors de la création des applications, j'ai également
-                        utilisé des languages css comme sass. Ces applications on été géré avec des logiciels de gestion de versions (github, gitlab, bitbucket).
-                        Lors de mes différentes formations et stages, j'ai pu prendre en main ces 3 logiciels qui utilise git. Pour finir j'ai pu utiliser les fonctionnalités
-                        de bootstrap pour faciliter et accélérer mon travail sur certain point des application réalisées. 
+                        J'ai pu travailler sur certain projet avec des langages comme ReactJs,
+                        symfony mais aussi sur des CMS comme wordpress. Lors de la création 
+                        des applications, j'ai également utilisé des langages css comme sass. 
+                        Ces applications ont été géré avec des logiciels de gestion de versions 
+                        (github, gitlab, bitbucket). Lors de mes différentes formations et stages,
+                        j'ai pu prendre en main ces 3 logiciels qui utilise git. Pour finir j'ai
+                        pu utiliser les fonctionnalités de bootstrap pour faciliter et accélérer
+                        mon travail sur certain point des applications.
                     </p>
                 </div>
             </div>
@@ -50,8 +53,10 @@ const Competences = ({title}) => {
                 </div>
                 <div className="text">
                     <p>
-                        Lors de ma formation à Simplon j'ai pu réaliser un projet pour un photographe sous laravel et en utilisant un bundle admin qui s'appelle voyageur. Lors de
-                        ma période à 3il, j'ai pu travailler et apprendre, angular et Nodejs, avec des exercices et des projets fictif.
+                        Lors de ma formation à Simplon j'ai pu réaliser un projet pour un photographe 
+                        sous laravel et en utilisant un bundle admin qui s'appelle voyageur. 
+                        Lors de ma période à 3il, j'ai pu travailler et apprendre, angular et Nodejs,
+                        avec des exercices et des projets fictifs.
                     </p>
                 </div>
                 <div className="information none2">
@@ -75,16 +80,20 @@ const Competences = ({title}) => {
                 </div>
                 <div className="text">
                     <p>
-                        Pendant ma période de vendeur, j'ai pris l'habitude de travailler en équipe, et de partager mon savoir faire, de proposer des idées et être force de proposition.
-                        J'ai continué ainsi pendant ma réorientation, pour moi le travail de développeur web se fait en équipe, et la réalisation d'un projet web,
-                        se réalise grâce à plusieurs acteurs (designeur, developpeur back, développeur front,...)et c'est en communiquant qu'un projet peut bien se dérouler.
-                        j'ai souvant travailler sous la methode agile scrum, et je la connait maintenant.
+                        Pendant ma période de vendeur, j'ai pris l'habitude de travailler en équipe,
+                        et de partager mon savoir-faire, de proposer des idées et être force de proposition.
+                        J'ai continué ainsi pendant ma réorientation, pour moi le travail de développeur web
+                        se fait en équipe, et la réalisation d'un projet web, se réalise grâce à plusieurs
+                        acteurs (designer, développeur back, développeur front, ...) et c'est en communiquant 
+                        qu'un projet peut bien se dérouler. J’ai souvent travaillé sous la méthode agile scrum.
                     </p>
                     <p>
-                        Pour moi un développeur ne peux pas maitriser un languages à 100%, il connait le code et comprend sa logique.
-                        La raison, un languages ne reste pas fixe, et évolue avec son temps au travers de ses différentes mise à jour, c'est pourquoi il est important de continué à apprendre
-                        et faire régulièrement ces propres recherche. Ce métier me passionne, je les découverts en discutant avec des développeur autour de moi et en 
-                        apprenant en autonomie sur openclassroom et udemy. Plus j'en connais , et plus je suis curieux d'en apprendre encore.
+                        Pour moi un développeur ne peut pas maitriser un langage à 100%, il connait le code et comprend sa logique.
+                        La raison, un langage ne reste pas fixe, et évolue avec son temps au travers de ses différentes mise à
+                        jour, c'est pourquoi il est important de continuer à apprendre et réaliser ces propres recherches. 
+                        Ce métier me passionne, je les découverts en discutant avec des développeurs autour de moi et en 
+                        apprenant en autonomie sur openclassroom et udemy. Plus j'en connais, et plus je suis curieux d'en 
+                        apprendre encore.
                     </p>
                 </div>
             </div>
@@ -102,8 +111,11 @@ const Competences = ({title}) => {
                 </div>
                 <div className="text">
                     <p>
-                        Grâce au cour sur udemy, j'ai pu acquérir des compétences sur docker, reactjs ou récemment Python. Pendant ma formation avec simplon,
-                        J'ai passé deux certification, dont une avec un jury, qui m'on permis d'obtenir la certification Opquast (780pts niveau Confirmé) et Agile qui officialise ma compétence à utiliser les méthodes agile, scrum en particulier.
+                        Grâce aux cours sur udemy, j'ai pu acquérir des compétences sur docker, reactjs ou 
+                        récemment Python. Pendant ma formation avec simplon, J'ai passé deux certifications, 
+                        dont une avec un jury, qui m'ont permis d'obtenir la certification Opquast 
+                        (780pts niveau Confirmé) et Agile qui officialise ma compétence à utiliser les méthodes 
+                        agile, scrum en particulier.
                     </p>
                 </div>
                 <div className="information none2">
