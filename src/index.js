@@ -9,6 +9,8 @@ import Experiences from './components/pages/Experiences'
 import Formations from './components/pages/Formations'
 import Loisirs from './components/pages/Loisirs'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './sass/styles.scss'
 
 import * as serviceWorker from './serviceWorker'

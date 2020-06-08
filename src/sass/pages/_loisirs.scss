@@ -1,91 +1,141 @@
 .loisir {
     align-items: center;
+    .subtitle {
+        padding-bottom: 1em;
+    }
 
-    .hobby {
-        margin: 0 4em 4em 4em;
-        width: 80%;
-        .party {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-    
-            h3 {
-                color: $black;
-                padding: 0;
+    .slide {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        margin: 3em;
+        .carousel-indicators {
+            li {
+                background-color: $black;
             }
-
-            i {
-                margin-left: 1em;
-                font-size: 2em;
-            }
-
-            .ball {
-                -webkit-animation: bounce-top 1.5s linear infinite both;
-                animation: bounce-top 1.5s linear infinite both;
-                color: rgb(184, 85, 4);
-            }
-
-            .ustensils {
-                -webkit-animation: wobble-hor-bottom 1s infinite both;
-                animation: wobble-hor-bottom 1s infinite both;
-                color: rgb(94, 93, 93);
-            }
-
-            .game {
-                -webkit-animation: vibrate-1 0.6s linear infinite both;
-                animation: vibrate-1 0.6s linear infinite both;
-                color: rgb(241, 228, 228);
-            }
-
-            .tv {
-                -webkit-animation: blink-1 2s infinite both;
-                animation: blink-1 2s infinite both;
-            }
-
-            .plane {	
-                -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
-                animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
-                color: rgb(70, 68, 68);
+            .active {
+                background-color: $text-hover;
             }
         }
-        .info {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: justify;
+        .carousel-inner {
+            width: 72%;
+            height: 100%;
             background-color: $bg-white;
-            box-shadow:  10px 10px 20px #414b69, 
-            -10px -10px 20px #6977a7;
-            border: solid 1px $text-hover;
-            padding: 1em;
+            box-shadow:  6px 6px 12px #d9d9d9, 
+            -6px -6px 12px #ffffff;
+            border: solid 1px $black;
             border-radius: 10px;
-            margin: 1em;
-
-
-            .image {
-                img {
-                    border-radius: 1em;
-                }
+            margin-bottom: 1em;
+            .hobby {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 3em 0 2em 0;
             }
+        }
+        .carousel-control-prev {
+            .carousel-control-prev-icon {
+                background-color: $black;
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+            }
+        }
+        .carousel-control-next {
+            .carousel-control-next-icon {
+                background-color: $black;
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+            }
+        }
+        h3 {
+            color: $black;
+            padding: 0;
+        }
 
-            .citation {
-                p {
+        i {
+            margin-left: 0.3em;
+            font-size: 2em;
+        }
+
+        .ball {
+            -webkit-animation: bounce-top 1.5s linear infinite both;
+            animation: bounce-top 1.5s linear infinite both;
+            color: rgb(184, 85, 4);
+        }
+
+        .ustensils {
+            -webkit-animation: wobble-hor-bottom 1s infinite both;
+            animation: wobble-hor-bottom 1s infinite both;
+            color: rgb(94, 93, 93);
+        }
+
+        .game {
+            -webkit-animation: vibrate-1 0.6s linear infinite both;
+            animation: vibrate-1 0.6s linear infinite both;
+            color: rgb(69, 72, 252);
+        }
+
+        .tv {
+            -webkit-animation: blink-1 2s infinite both;
+            animation: blink-1 2s infinite both;
+        }
+
+        .plane {	
+            -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+            animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+            color: rgb(70, 68, 68);
+        }
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .image {
+            display: flex;
+            justify-content: center;
+            width: 16em;
+            img {
+                border-radius: 1em;
+                width: 100%;
+                border: 1px solid $black;
+            }
+            .cook {
+                width: 13.4em;
+            }
+            .travel {
+                width: 9em;
+            }
+            .gaming {
+                width: 13.4em;
+            }
+            .movie {
+                width: 7.4em;
+            }
+        }
+
+        .citation {
+            margin: 1em;
+            p {
+                color: $black;
+                line-height: 1.5em;
+                padding: 0.5em;
+                text-align: center;
+                a {
+                    text-decoration: none;
                     color: $black;
-                    line-height: 1.5em;
-                    padding: 0.5em;
-                    a {
-                        text-decoration: none;
-                        color: $black;
-                        font-weight: bold;
-                        transition: all 0.4s ease-out;
-                        &:hover {
-                            color:$text-hover;
-                        }
+                    font-weight: bold;
+                    transition: all 0.4s ease-out;
+                    &:hover {
+                        color:$text-hover;
                     }
                 }
             }
         }
-    }  
+    }
 }
   
   

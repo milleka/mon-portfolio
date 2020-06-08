@@ -44,14 +44,14 @@ const Cards = ({title, src}) => {
 
     return (
         <div className="block">
-            <div className="card">
-                <div className="card-front">
+            <div className="carte">
+                <div className="carte-front">
                     <img src={src} alt="mon logo" title="Accueil" className="adapt"/>
                     <h2>{title}</h2>
                 </div>
-                <div className="card-back">
+                <div className="carte-back">
                     {Display()}
-                    <NavLink to={Onclick} exact className="link">En savoir plus</NavLink>
+                    <NavLink to={Onclick} exact className="lien">En savoir plus</NavLink>
                 </div>
             </div>
         </div>

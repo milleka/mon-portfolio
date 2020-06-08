@@ -5,6 +5,7 @@ import Footer from './layout/Footer'
 import Cards from './Cards'
 import'animate.css'
 import Presentation from './elements/Presentation';
+import pdf from '../assets/pdf/cv_camille_chassaing.pdf'
 
 function Homepage({title}) {
 
@@ -35,10 +36,13 @@ function Homepage({title}) {
               </p>
               <p>Ce portfolio vous présente mon histoire.</p>
               <p>Bonne visite !</p>
+              <div>
+                <a href={pdf} target="_blank" rel="noopener noreferrer">Mon CV (PDF)</a>
+              </div>
             </div>
           </div>
         </div>
-        <div className="cards">
+        <div className="cartes">
           <ul className="box-area">
             <li></li>
             <li></li>

@@ -3,9 +3,9 @@
               padding-bottom: 4em;
             }
 
-            .card {
-                height: 450px;
-                width: 200px;
+            .carte {
+                height: 470px;
+                width: 250px;
                 position: relative;
                 transform-style: preserve-3d;
                 perspective: 600px;
@@ -15,14 +15,14 @@
                   width: 250px;
                 }
 
-                &:hover .card-front {
+                &:hover .carte-front {
                     transform: rotateY(-180deg);
                 }
-                &:hover .card-back {
+                &:hover .carte-back {
                     transform: rotateY(0deg);
                 }
 
-                .card-front {
+                .carte-front {
                     box-shadow:  5px 5px 10px #848585;
                     border: solid 2px $black;
                     border-radius: 10px;
@@ -50,7 +50,7 @@
                     }
                 }
 
-                .card-back {
+                .carte-back {
                     background-color: $white;
                     border: solid 2px $black;
                     width: 100%;
@@ -60,7 +60,7 @@
                     padding: 1em;
                     position: absolute;
                     top: 0;
-                    left: -9%;
+                    left: 0;
                     backface-visibility: hidden;
                     transform: rotateY(180deg);
                     transition: .8s;
@@ -68,17 +68,17 @@
                     flex-direction: column;
                     align-items: center;
 
-                    .link {
+                    .lien {
                         text-decoration: none;
                         color: $black;
-                        margin: 1em;
+                        margin: 0.5em;
                         border: solid 1px $bg-black;
                         font-family: $font-family-text;
                         padding: 0.5em;
                         border-radius: 0.6em;
                         transition: all 0.4s ease-out;
                         -webkit-animation: pulsate-bck 1s ease-in-out infinite both;
-	                    animation: pulsate-bck 1s ease-in-out infinite both;
+	                      animation: pulsate-bck 1s ease-in-out infinite both;
                         &:hover {
                             background-color: $text-hover;
                             color: $white;
