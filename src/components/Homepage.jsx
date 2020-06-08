@@ -39,6 +39,14 @@ function Homepage({title}) {
           </div>
         </div>
         <div className="cards">
+          <ul className="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
           <div className="ligne espace">
             <Cards title="Compétences" src="img/competences.jpg"/>
             <Cards title="Expériences" src="img/experiences.jpg" />

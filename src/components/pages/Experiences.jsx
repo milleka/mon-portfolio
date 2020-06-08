@@ -36,7 +36,7 @@ const Experiences = ({title}) => {
                         J'ai pu gérer une équipe de 5 personnes lors de la refonte de l'application web de 
                         l'entreprise. Cette refonte a été faite en ReactJs et peut être utilisée en Progressive Web
                         App. Vous pouvez retrouver le site ici :  
-                        <a href="http://dev.dynaidev.net/" target="_blank" rel="noopener noreferrer">Dynaidev</a>
+                        <a href="https://dynaidev.net/" target="_blank" rel="noopener noreferrer">Dynaidev</a>
                     </p>
                 </div>
             </div>
