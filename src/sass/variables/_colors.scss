@@ -3,8 +3,12 @@ $white: #ffffff;
 $black: #000000;
 
 /* Default theme colors */
-$bg-primary: #4C539C;
-$bg-principal: #95B1E1;
+$bg-principal: rgb(216, 216, 216);
 $text-primary: #ffffff;
 $text-hover:  rgb(216, 69, 69);
-$bg-white: rgba(255, 255, 255, 0.7)
+$bg-white: rgba(255, 255, 255, 0.7);
+$bg-black: rgba(0,0,0,0.5);
+
+$bubble-red: rgba(216, 69, 69, 0.5);
+$bubble-black: rgba(0,0,0,0.5);
+$bubble-white:  rgba(255, 255, 255, 0.5);
