@@ -12,7 +12,7 @@ const Experiences = ({title}) => {
         <>
         <Header/>
         <main className='App-main expert'>
-            <h2>{title}</h2>
+            <h2 className="subtitle">{title}</h2>
             <div className="experience">
                 <div className="party">
                     <img src="img/logo-dynaidev.png" alt="dynaidev agence web"/>

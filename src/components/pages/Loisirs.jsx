@@ -12,7 +12,7 @@ const Loisirs = ({title}) => {
         <>
         <Header/>
         <main className='App-main loisir'>
-            <h2>{title}</h2>
+            <h2 className="subtitle">{title}</h2>
             <div className="hobby">
                 <div className="party">
                     <h3>Basket-ball</h3>

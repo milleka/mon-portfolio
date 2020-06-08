@@ -15,7 +15,7 @@ function Homepage({title}) {
       <Presentation/>
       <main className='App-main'>
         <div className="propos">
-          <h2>{title}</h2>
+          <h2 className="subtitle">{title}</h2>
           <div className="me">
             <div className="image">
               <img src="img/moi.png" alt="mon logo" title="Accueil"/>
