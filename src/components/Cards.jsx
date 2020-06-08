@@ -44,7 +44,7 @@ const Cards = ({title, src}) => {
 
     return (
         <div className="block">
-            <div className="cards">
+            <div className="card">
                 <div className="card-front">
                     <img src={src} alt="mon logo" title="Accueil" className="adapt"/>
                     <h2>{title}</h2>

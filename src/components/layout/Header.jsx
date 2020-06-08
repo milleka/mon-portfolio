@@ -8,7 +8,7 @@ const Header = () => {
                 <div>
                     <NavLink to="/" exact className="link" activeClassName='active'><i  className="fas fa-home" title="page d'accueil"></i><p>Accueil</p></NavLink>
                 </div>
-                <div className="logo animate__animated animate__slideInLeft">
+                <div className="logo">
                     <img className="animate__animated animate__heartBeat" src="img/logo.png" alt="mon logo" title="dev web"/>
                 </div>
                 <div>

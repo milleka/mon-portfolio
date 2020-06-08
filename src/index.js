@@ -23,7 +23,7 @@ class Root extends Component {
             <Route
               exact
               path='/'
-              render={routeProps => <Homepage {...routeProps} title={`Bonjour et Bienvenue`} />}
+              render={routeProps => <Homepage {...routeProps} title={`A PROPOS`} />}
             />
             <Route
               exact

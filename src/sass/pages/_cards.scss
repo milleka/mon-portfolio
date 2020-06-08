@@ -7,7 +7,7 @@
               margin-bottom: 11em;
           }
 
-            .cards {
+            .card {
                 position: absolute;
                 top: 45%;
                 left: 42%;
@@ -28,6 +28,7 @@
                     box-shadow:  10px 10px 20px #414b69, 
                     -10px -10px 20px #6977a7;
                     position: absolute;
+                    border-radius: 10px;
                     top: 0;
                     left: 0;
                     backface-visibility: hidden;
@@ -70,9 +71,9 @@
 
                     .link {
                         text-decoration: none;
-                        color: $bg-primary;
+                        color: $bg-principal;
                         margin: 0.2em;
-                        border: solid 1px $bg-primary;
+                        border: solid 1px $bg-principal;
                         font-family: $font-family-text;
                         padding: 0.5em;
                         border-radius: 0.6em;
@@ -80,7 +81,7 @@
                         -webkit-animation: pulsate-bck 1s ease-in-out infinite both;
 	                    animation: pulsate-bck 1s ease-in-out infinite both;
                         &:hover {
-                            background-color: $bg-primary;
+                            background-color: $bg-principal;
                             color: $white;
                         }
                     }
