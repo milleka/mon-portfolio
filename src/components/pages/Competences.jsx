@@ -12,7 +12,7 @@ const Competences = ({title}) => {
         <>
         <Header/>
         <main className='App-main compet'>
-            <h2>{title}</h2>
+            <h2 className="subtitle">{title}</h2>
             <div className="competences left">
                 <div className="information">
                     <h4>Langages/logiciels utilisés</h4>

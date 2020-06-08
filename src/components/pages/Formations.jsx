@@ -12,7 +12,7 @@ const Formations = ({title}) => {
         <>
         <Header/>
         <main className='App-main formation'>
-            <h2>{title}</h2>
+            <h2 className="subtitle">{title}</h2>
             <div className="etude">
                 <div className="party">
                 <img src="img/3il.png" alt="école d'ingénieur"/>

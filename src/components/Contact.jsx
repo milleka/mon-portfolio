@@ -13,7 +13,7 @@ const Contact = ({title}) => {
         <>
         <Header />
         <main className='App-main contact'>
-            <h2>{title}</h2>
+            <h2 className="subtitle">{title}</h2>
             <div className="coordonees">
                 <p>
                     <span>Adresse e-mail :</span>
