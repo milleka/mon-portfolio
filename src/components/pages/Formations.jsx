@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import Header from '../layout/Header'
 import Footer from '../layout/Footer'
+import { NavLink } from 'react-router-dom';
 
 const Formations = ({title}) => {
 
@@ -13,6 +14,7 @@ const Formations = ({title}) => {
         <Header/>
         <main className='App-main formation'>
             <h2 className="subtitle">{title}</h2>
+            <NavLink to="/contact" exact className="lien">Ecrivez-moi !</NavLink>
             <div className="etude">
                 <div className="party">
                 <img src="img/3il.png" alt="école d'ingénieur"/>

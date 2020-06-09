@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import Header from '../layout/Header'
 import Footer from '../layout/Footer'
+import { NavLink } from 'react-router-dom';
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -20,6 +21,7 @@ const Competences = ({title}) => {
         <Header/>
         <main className='App-main compet'>
             <h2 className="subtitle">{title}</h2>
+            <NavLink to="/contact" exact className="lien">Ecrivez-moi !</NavLink>
             <div className="competences un">
                 <div className="information left" data-aos="fade-right">
                     <h4>Langages/logiciels utilisés</h4>
