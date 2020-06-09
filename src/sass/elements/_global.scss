@@ -46,3 +46,20 @@ a {
   font-family: $font-family-text;
   color: $black;
 }
+
+.lien {
+  text-decoration: none;
+  color: $black;
+  border: solid 1px $bg-black;
+  font-family: $font-family-text;
+  padding: 0.5em;
+  border-radius: 0.6em;
+  transition: all 0.4s ease-out;
+  -webkit-animation: pulsate-bck 1s ease-in-out infinite both;
+  animation: pulsate-bck 1s ease-in-out infinite both;
+  &:hover {
+      background-color: $text-hover;
+      text-decoration: none;
+      color: $white;
+  }
+}

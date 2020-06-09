@@ -3,6 +3,7 @@ import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 
 import {Carousel} from 'react-bootstrap'
+import { NavLink } from 'react-router-dom';
 
 const Loisirs = ({title}) => {
 
@@ -17,6 +18,7 @@ const Loisirs = ({title}) => {
         <Header/>
         <main className='App-main loisir'>
             <h2 className="subtitle">{title}</h2>
+            <NavLink to="/contact" exact className="lien">Ecrivez-moi !</NavLink>
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <div className="hobby">
