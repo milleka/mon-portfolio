@@ -30,6 +30,16 @@
                     display: flex;
                     justify-content: center;
                 }
+                @media screen and (max-width: 425px) {
+                   height: 35vh;
+                }
+                @media screen and (max-width: 375px) {
+                    height: 32vh;
+                 }
+                @media screen and (max-width: 320px) {
+                    height: 28vh;
+                 }
+
                 img {
                     width: 100%;
                     height: auto;
