@@ -3,7 +3,6 @@ import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 import { NavLink } from 'react-router-dom';
 
-import { useContext } from 'react';
 import { Accordion, Card, Button } from 'react-bootstrap';
 
 
