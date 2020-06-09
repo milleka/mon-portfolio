@@ -50,6 +50,9 @@ function Homepage({title}) {
             <li></li>
             <li></li>
             <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
           </ul>
           <div className="ligne espace">
             <Cards title="Compétences" src="img/competences.jpg"/>

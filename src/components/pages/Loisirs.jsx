@@ -19,63 +19,56 @@ const Loisirs = ({title}) => {
             <h2 className="subtitle">{title}</h2>
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
-                    <div>
-                        <div className="hobby">
-                            <h3>Basket-ball</h3>
-                            <i className="fas fa-basketball-ball ball"></i>
+                    <div className="hobby">
+                        <h3>Basket-ball</h3>
+                        <i className="fas fa-basketball-ball ball"></i>
+                    </div>
+                    <div className="info">
+                        <div className="image">
+                            <img src="img/kb.gif" alt="basket-ball"/>
                         </div>
-                        <div className="info">
-                            <div className="image">
-                                <img src="img/kb.gif" alt="basket-ball"/>
-                            </div>
-                            <div className="citation">
-                                <p> 
-                                "Je peux accepter l'échec, tout le monde peut échouer, 
-                                mais je n'accepterai jamais de ne pas avoir essayé" MJ.
-                                </p>   
-                            </div>
+                        <div className="citation">
+                            <p> 
+                            "Je peux accepter l'échec, tout le monde peut échouer, 
+                            mais je n'accepterai jamais de ne pas avoir essayé" MJ.
+                            </p>   
                         </div>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <div>
-                        <div className="hobby">
-                            <h3>Cuisine</h3>
-                            <i className="fas fa-utensils ustensils"></i>
+                    <div className="hobby">
+                        <h3>Cuisine</h3>
+                        <i className="fas fa-utensils ustensils"></i>
+                    </div>
+                    <div className="info">
+                        <div className="image">
+                            <img className="cook" src="img/cook.gif" alt="cuisiner"/>
                         </div>
-                        <div className="info">
-                            <div className="image">
-                                <img className="cook" src="img/cook.gif" alt="cuisiner"/>
-                            </div>
-                            <div className="citation">
-                                <p> 
-                                "On ne peut pas faire de cuisine, si l'on n'aime pas les gens" JR.
-                                </p>   
-                            </div>
+                        <div className="citation">
+                            <p> 
+                            "On ne peut pas faire de cuisine, si l'on n'aime pas les gens" JR.
+                            </p>   
                         </div>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <div>
-                        <div className="hobby">
-                            <h3>Jeux-vidéo</h3>
-                            <i className="fas fa-gamepad game"></i>
+                    <div className="hobby">
+                        <h3>Jeux-vidéo</h3>
+                        <i className="fas fa-gamepad game"></i>
+                    </div>
+                    <div className="info">
+                        <div className="image">
+                            <img className="gaming" src="img/game.gif" alt="jeux-vidéo"/>
                         </div>
-                        <div className="info">
-                            <div className="image">
-                                <img className="gaming" src="img/game.gif" alt="jeux-vidéo"/>
-                            </div>
-                            <div className="citation">
-                                <p> 
-                                "Jouer aux jeux vidéo augmente la créativité, et permet une vue plus détaillée, et améliore
-                                la concentration et rend les gens heureux".
-                                </p>   
-                            </div>
+                        <div className="citation">
+                            <p> 
+                            "Jouer aux jeux vidéo augmente la créativité, et permet une vue plus détaillée, et améliore
+                            la concentration et rend les gens heureux".
+                            </p>   
                         </div>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                <div>
                     <div className="hobby">
                         <h3>Séries/Films</h3>
                         <i className="fas fa-tv tv"></i>
@@ -90,23 +83,20 @@ const Loisirs = ({title}) => {
                             </p>   
                         </div>
                     </div>
-                </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <div>
-                        <div className="hobby">
-                            <h3>Voyager</h3>
-                            <i className="fas fa-plane plane"></i>
+                    <div className="hobby">
+                        <h3>Voyager</h3>
+                        <i className="fas fa-plane plane"></i>
+                    </div>
+                    <div className="info">
+                        <div className="image">
+                            <img className="travel" src="img/travel.gif" alt="voyage"/>
                         </div>
-                        <div className="info">
-                            <div className="image">
-                                <img className="travel" src="img/travel.gif" alt="voyage"/>
-                            </div>
-                            <div className="citation">
-                                <p> 
-                                "Voyager est un triple plaisir: l'attente, l'éblouissement et le souvenir".
-                                </p>   
-                            </div>
+                        <div className="citation">
+                            <p> 
+                            "Voyager est un triple plaisir: l'attente, l'éblouissement et le souvenir".
+                            </p>   
                         </div>
                     </div>     
                 </Carousel.Item>

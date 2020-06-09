@@ -22,17 +22,28 @@
         .carousel-inner {
             width: 72%;
             height: 100%;
-            background-color: $bg-white;
-            box-shadow:  6px 6px 12px #d9d9d9, 
-            -6px -6px 12px #ffffff;
-            border: solid 1px $black;
-            border-radius: 10px;
             margin-bottom: 1em;
-            .hobby {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 3em 0 2em 0;
+            display: flex;
+            justify-content: center;
+            .carousel-item{
+                    background-color: $bg-white;
+                    box-shadow:  6px 6px 12px #d9d9d9, 
+                    -6px -6px 12px #ffffff;
+                    border: solid 1px $black;
+                    border-radius: 10px;
+                    width: 70%;
+                    margin: 0;
+                    height: 60vh;
+                    @media screen and (max-width: 425px) {
+                        width: 100%;
+                        height: 80vh;
+                    }
+                    .hobby {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 3em 0 2em 0;
+                    }         
             }
         }
         .carousel-control-prev {
@@ -102,18 +113,21 @@
                 border-radius: 1em;
                 width: 100%;
                 border: 1px solid $black;
+                @media screen and (max-width: 425px) {
+                    width: 65%;
+                }
             }
-            .cook {
-                width: 13.4em;
+            .cook, .gaming {
+                width: 100%;
+                @media screen and (max-width: 425px) {
+                    width: 65%;
+                }
             }
-            .travel {
-                width: 9em;
-            }
-            .gaming {
-                width: 13.4em;
-            }
-            .movie {
-                width: 7.4em;
+            .travel,.movie {
+                width: 60%;
+                @media screen and (max-width: 425px) {
+                    width: 45%;
+                }
             }
         }
 
