@@ -2,19 +2,26 @@ import React, {useEffect} from 'react';
 import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Competences = ({title}) => {
 
     useEffect(() => {
         window.scrollTo({ top: 0, behavior: 'smooth' })
       })
 
+    AOS.init ({
+        duration: 2000,
+    })  
+
     return (
         <>
         <Header/>
         <main className='App-main compet'>
             <h2 className="subtitle">{title}</h2>
-            <div className="competences left">
-                <div className="information">
+            <div className="competences un">
+                <div className="information left" data-aos="fade-right">
                     <h4>Langages/logiciels utilisés</h4>
                     <div className="party">
                         <i className="fab fa-wordpress wp"><p>Wordpress</p></i>
@@ -29,7 +36,7 @@ const Competences = ({title}) => {
                         <i className="fab fa-bootstrap bt"><p>Bootstrap</p></i>
                     </div>
                 </div>
-                <div className="text">
+                <div className="text" data-aos="flip-up">
                     <p>
                         J'ai pu travailler sur certain projet avec des langages comme ReactJs,
                         symfony mais aussi sur des CMS comme wordpress. Lors de la création 
@@ -42,8 +49,8 @@ const Competences = ({title}) => {
                     </p>
                 </div>
             </div>
-            <div className="competences right">
-                <div className="information none">
+            <div className="competences deux">
+                <div className="information right" id="none" data-aos="fade-left">
                     <h4>Langages Appris</h4>
                     <div className="party">
                         <i className="fab fa-angular angu"><p>Angular</p></i>
@@ -51,7 +58,7 @@ const Competences = ({title}) => {
                         <i className="fab fa-node-js node"><p>Nodejs</p></i>
                     </div>
                 </div>
-                <div className="text">
+                <div className="text" data-aos="flip-up">
                     <p>
                         Lors de ma formation à Simplon j'ai pu réaliser un projet pour un photographe 
                         sous laravel et en utilisant un bundle admin qui s'appelle voyageur. 
@@ -59,7 +66,7 @@ const Competences = ({title}) => {
                         avec des exercices et des projets fictifs.
                     </p>
                 </div>
-                <div className="information none2">
+                <div className="information right" id="none2" data-aos="fade-left" >
                     <h4>Langages Appris</h4>
                     <div className="party">
                         <i className="fab fa-angular angu"><p>Angular</p></i>
@@ -68,8 +75,8 @@ const Competences = ({title}) => {
                     </div>
                 </div>
             </div>
-            <div className="competences left2">
-                <div className="information">
+            <div className="competences trois">
+                <div className="information left" data-aos="fade-right">
                     <h4>Compétences générales</h4>
                     <div className="party">
                         <i className="fas fa-users"><p>Travail en équipe</p></i>
@@ -78,27 +85,21 @@ const Competences = ({title}) => {
                         <i className="far fa-lightbulb"><p>Passionné</p></i>
                     </div>
                 </div>
-                <div className="text">
+                <div className="text" data-aos="flip-up">
                     <p>
-                        Pendant ma période de vendeur, j'ai pris l'habitude de travailler en équipe,
-                        et de partager mon savoir-faire, de proposer des idées et être force de proposition.
-                        J'ai continué ainsi pendant ma réorientation, pour moi le travail de développeur web
-                        se fait en équipe, et la réalisation d'un projet web, se réalise grâce à plusieurs
+                        Le travail de développeur web se fait en équipe, et la réalisation d'un projet web, se réalise grâce à plusieurs
                         acteurs (designer, développeur back, développeur front, ...) et c'est en communiquant 
-                        qu'un projet peut bien se dérouler. J’ai souvent travaillé sous la méthode agile scrum.
-                    </p>
-                    <p>
+                        qu'un projet peut bien se dérouler. J’ai souvent travaillé sous la méthode agile scrum.<br/>
                         Pour moi un développeur ne peut pas maitriser un langage à 100%, il connait le code et comprend sa logique.
                         La raison, un langage ne reste pas fixe, et évolue avec son temps au travers de ses différentes mise à
-                        jour, c'est pourquoi il est important de continuer à apprendre et réaliser ces propres recherches. 
-                        Ce métier me passionne, je les découverts en discutant avec des développeurs autour de moi et en 
-                        apprenant en autonomie sur openclassroom et udemy. Plus j'en connais, et plus je suis curieux d'en 
+                        jour, c'est pourquoi il est important de continuer à apprendre et faire ces propres recherches. 
+                        Ce métier me passionne, je les découverts en apprenant en autonomie sur openclassroom et udemy. Plus j'en connais, et plus je suis curieux d'en 
                         apprendre encore.
                     </p>
                 </div>
             </div>
-            <div className="competences right2">
-                <div className="information none">
+            <div className="competences quatre">
+                <div className="information right" id="none" data-aos="fade-left">
                     <h4>Certifications obtenues</h4>
                     <div className="party">
                         <i className="fab fa-docker dock"><p>Docker</p></i>
@@ -109,7 +110,7 @@ const Competences = ({title}) => {
                         <i className="fas fa-spinner agile"><p>Méthode agile</p></i>
                     </div>
                 </div>
-                <div className="text">
+                <div className="text" data-aos="flip-up">
                     <p>
                         Grâce aux cours sur udemy, j'ai pu acquérir des compétences sur docker, reactjs ou 
                         récemment Python. Pendant ma formation avec simplon, J'ai passé deux certifications, 
@@ -118,7 +119,7 @@ const Competences = ({title}) => {
                         agile, scrum en particulier.
                     </p>
                 </div>
-                <div className="information none2">
+                <div className="information right" id="none2" data-aos="fade-left">
                     <h4>Certifications obtenues</h4>
                     <div className="party">
                         <i className="fab fa-docker dock"><p>Docker</p></i>
