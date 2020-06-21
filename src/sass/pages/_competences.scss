@@ -3,7 +3,7 @@
     align-items: center;
     .competences {
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -93,7 +93,16 @@
                 background-color: $white;
                 border-radius: 10px;
                 line-height: 1.5em;
-                box-shadow:  7px 7px 14px #474747; 
+                box-shadow:  7px 7px 14px #474747;
+                a {
+                  text-decoration: none;
+                  color: $black;
+                  font-weight: bold;
+                  transition: all 0.4s ease-out;
+                  &:hover {
+                      color:$text-hover;
+                  }
+              }
             }
         }
     }

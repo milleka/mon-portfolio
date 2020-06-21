@@ -34,8 +34,8 @@ const Formations = ({title}) => {
                                 mais aussi dans le domaine du réseau informatique.
                             </p>
                             <p>
-                                J'ai pu grâce à de nombreux cours, d’apprendre sur le fonctionnement d'un framework php 
-                                (réalisation d'un framework from scratch), nodeJs, Angular, git, et le fonctionnement des bdd sous Oracle.
+                                J'ai pu grâce à de nombreux cours, travailler sur un framework php (réalisation d'un framework
+                                from scratch), nodeJs, Angular, git, et le fonctionnement des bdd sous Oracle.
                             </p>
                             <p>
                                 Dans le réseau informatique, j'ai pu travailler sur les systèmes de sécurités, l'hébergement web,
@@ -59,7 +59,8 @@ const Formations = ({title}) => {
                         <div className="text">
                             <p> 
                                 Simplon est un réseau de fabriques solidaires et inclusives qui proposent des formations gratuites 
-                                aux métiers techniques du numérique en France et à l'étranger. Ella m'a permis d'obtenir un diplôme 
+                                aux métiers techniques du numérique en France et à l'étranger.
+                                <a href="https://simplon.co/" target="_blank" rel="noopener noreferrer">Simplon</a> Ella m'a permis d'obtenir un diplôme 
                                 certifié par l'état en tant que développeur web et web mobile (bac+2).
                             </p>
                             <p>
@@ -74,7 +75,7 @@ const Formations = ({title}) => {
                             <p>
                                 Par ailleurs j'ai décidé après la formation de continuer avec la mauvaise herbe, 
                                 et de réaliser son site sous wordpress. Vous pouvez retrouver le site ici 
-                                (en cour de réalisation) <br/>
+                                (en cours de réalisation) <br/>
                                 <a href="http://lmh.lescadev.fr/" target="_blank" rel="noopener noreferrer">La Mauvaise Herbe</a> 
                             </p>
                         </div>
@@ -94,16 +95,14 @@ const Formations = ({title}) => {
                         </div>
                         <div className="text">
                             <p> 
-                                Après un bep Vente Action Marchande et un Bac pro Commerce, j'ai continué 
-                                mes études en BTS Management des Unités Commerciales (bac +2).
-                            </p>
-                            <p>
-                                A l'époque, je souhaitais travailler dans le commerce, parce que j'aimais le
-                                contact humain, et créer des univers en fonction des produits que je vendais.
-                            </p>
-                            <p>
-                                Cette période m'a permis d'acquérir des compétences en informatique, notamment
-                                sur la gestion des datas clients.
+                                J’ai toujours apprécié le contact humain et je ne concevais pas mon futur métier sans cet aspect.
+                                J’ai donc pris la décision très tôt de m’orienter dans le secteur commercial. En effet, directement
+                                après le brevet des collèges, j’ai effectué un BEP Vente Action Marchande, puis j’ai poursuivi 
+                                par un BAC pro Commerce. Souhaitant approfondir mes connaissances dans le domaine commerciale,
+                                j’ai poursuivi mes études en BTS Management des Unités Commerciales. Mon parcours scolaire m’a
+                                permis d’apprendre les bases théoriques du commerce (management, économie, droit, techniques de
+                                vente, …), mais également des compétences en informatique (gestion data client) tout en ayant
+                                la possibilité d’effectuer des stages en entreprise.
                             </p>
                         </div>
                     </div>

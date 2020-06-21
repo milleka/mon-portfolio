@@ -27,12 +27,11 @@ function Homepage({title}) {
               <p>
                 Il y a quelques années, je me suis pris de passion pour le développement web.
                 J'ai donc décidé de me réorienter. J'ai commencé par une formation pour adulte
-                (Simplon), qui m'a permis d'obtenir un bac +2 développeurs web et web mobile, 
-                et 2 certificats (Opquast et méthode agile). Souhaitant poursuivre mes connaissances
+                (Simplon), qui m'a permis d'obtenir un bac +2 développeurs web et web mobile,
+                et 2 certificats (Opquast et méthode agile). Souhaitant développer mes connaissances
                 en développement et réseaux, j'ai décidé de continuer dans une école d'ingénieur (3iL)
-                afin d'obtenir un bac +3. Aujourd'hui, arrive la fin de ma réorientation, 
-                afin de réussir parfaitement cette reconversion, je suis à la recherche d'un emploi 
-                en tant que développeur web junior.
+                afin d'obtenir un bac +3. Aujourd'hui, afin de réussir parfaitement cette reconversion,
+                je suis à la recherche d'un emploi en tant que développeur web junior.
               </p>
               <p>Ce portfolio vous présente mon histoire.</p>
               <p>Bonne visite !</p>
