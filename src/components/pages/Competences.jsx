@@ -41,13 +41,12 @@ const Competences = ({title}) => {
                 <div className="text" data-aos="flip-up">
                     <p>
                         J'ai pu travailler sur certain projet avec des langages comme ReactJs,
-                        symfony mais aussi sur des CMS comme wordpress. Lors de la création 
-                        des applications, j'ai également utilisé des langages css comme sass. 
-                        Ces applications ont été géré avec des logiciels de gestion de versions 
-                        (github, gitlab, bitbucket). Lors de mes différentes formations et stages,
-                        j'ai pu prendre en main ces 3 logiciels qui utilise git. Pour finir j'ai
-                        pu utiliser les fonctionnalités de bootstrap pour faciliter et accélérer
-                        mon travail sur certain point des applications.
+                        symfony mais aussi sur des CMS comme wordpress. Lors de la création des applications,
+                        j'ai également utilisé des langages css comme sass. Ces applications ont été géré avec
+                        des logiciels de gestion de versions (github, gitlab, bitbucket). Lors de mes
+                        différentes formations et stages, j'ai pu prendre en main ces 3 logiciels qui utilise
+                        git. Pour finir j'ai pu utiliser les fonctionnalités de bootstrap pour faciliter
+                        et accélérer mon travail sur certains points.
                     </p>
                 </div>
             </div>
@@ -62,10 +61,9 @@ const Competences = ({title}) => {
                 </div>
                 <div className="text" data-aos="flip-up">
                     <p>
-                        Lors de ma formation à Simplon j'ai pu réaliser un projet pour un photographe 
-                        sous laravel et en utilisant un bundle admin qui s'appelle voyageur. 
-                        Lors de ma période à 3il, j'ai pu travailler et apprendre, angular et Nodejs,
-                        avec des exercices et des projets fictifs.
+                        Lors de ma formation à Simplon j'ai pu réaliser un projet pour un photographe
+                        sous laravel et un bundle admin (Voyageur). Pendant ma période à 3il, j'ai pu
+                        travailler et apprendre Angular et Nodejs.
                     </p>
                 </div>
                 <div className="information right" id="none2" data-aos="fade-left" >
@@ -89,14 +87,18 @@ const Competences = ({title}) => {
                 </div>
                 <div className="text" data-aos="flip-up">
                     <p>
-                        Le travail de développeur web se fait en équipe, et la réalisation d'un projet web, se réalise grâce à plusieurs
-                        acteurs (designer, développeur back, développeur front, ...) et c'est en communiquant 
-                        qu'un projet peut bien se dérouler. J’ai souvent travaillé sous la méthode agile scrum.<br/>
-                        Pour moi un développeur ne peut pas maitriser un langage à 100%, il connait le code et comprend sa logique.
-                        La raison, un langage ne reste pas fixe, et évolue avec son temps au travers de ses différentes mise à
-                        jour, c'est pourquoi il est important de continuer à apprendre et faire ces propres recherches. 
-                        Ce métier me passionne, je les découverts en apprenant en autonomie sur openclassroom et udemy. Plus j'en connais, et plus je suis curieux d'en 
-                        apprendre encore.
+                        Pendant ma période de vendeur, j'ai pris l'habitude de travailler en équipe, 
+                        et de partager mon savoir-faire, de proposer des idées et être force de proposition.
+                        J'ai continué ainsi pendant ma réorientation, pour moi le travail de développeur web
+                        se fait en équipe, et la réalisation d'un projet web, se réalise grâce à plusieurs
+                        acteurs (designer, développeur back, développeur front, ...) et c'est en 
+                        communiquant qu'un projet peut se dérouler correctement.<br/>
+                        Pour moi un développeur ne peut pas maitriser un langage à 100%, il connait
+                        le code et comprend sa logique. La raison, un langage ne reste pas fixe, et évolue
+                        avec son temps au travers de ses différentes mise à jour, c'est pourquoi il est
+                        important de continuer à apprendre et se renseigner grâce au différentes veille
+                        technologique. Ce métier me passionne. Plus j'en connais, et plus je suis curieux
+                        d'en apprendre encore.
                     </p>
                 </div>
             </div>
@@ -114,11 +116,11 @@ const Competences = ({title}) => {
                 </div>
                 <div className="text" data-aos="flip-up">
                     <p>
-                        Grâce aux cours sur udemy, j'ai pu acquérir des compétences sur docker, reactjs ou 
-                        récemment Python. Pendant ma formation avec simplon, J'ai passé deux certifications, 
-                        dont une avec un jury, qui m'ont permis d'obtenir la certification Opquast 
-                        (780pts niveau Confirmé) et Agile qui officialise ma compétence à utiliser les méthodes 
-                        agile, scrum en particulier.
+                        Pendant ma formation avec simplon, j'ai passé deux certifications, dont une avec un jury,
+                        qui m'ont permis d'obtenir la certification Opquast (780pts niveau Confirmé) et Agile qui
+                        officialise ma compétence à utiliser les méthodes agile et scrum en particulier. 
+                        Grâce à des cours sur udemy, j'ai pu acquérir des compétences sur <a href="https://www.udemy.com/certificate/UC-2b9d8cfc-7aa4-408f-bae8-9f6c971de620/" target="_blank" rel="noopener noreferrer">Docker </a> 
+                        et <a href="https://www.udemy.com/certificate/UC-48a92cce-825b-4128-a3af-4dc80a9dd67c/" target="_blank" rel="noopener noreferrer">ReactJs</a>. 
                     </p>
                 </div>
                 <div className="information right" id="none2" data-aos="fade-left">
