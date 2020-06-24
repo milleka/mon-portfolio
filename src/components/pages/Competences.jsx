@@ -24,7 +24,7 @@ const Competences = ({title}) => {
             <NavLink to="/contact" exact className="lien">Ecrivez-moi !</NavLink>
             <div className="competences un">
                 <div className="information left" data-aos="fade-right">
-                    <h4>Langages/logiciels utilisés</h4>
+                    <h4>Framework/librairies/logiciels utilisés</h4>
                     <div className="party">
                         <i className="fab fa-wordpress wp"><p>Wordpress</p></i>
                         <i className="fab fa-react react"><p>ReactJs</p></i>

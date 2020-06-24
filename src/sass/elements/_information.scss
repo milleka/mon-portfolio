@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 400px;
+    height: 420px;
     .party {
         display: flex;
         align-items: center;
@@ -102,12 +102,16 @@
             }
             i {
                 font-size: 2.3em;
-                color: #C6440C;
+                color: #b1431b;
             }
             p {
                 color: $black;
                 text-align: center;
                 margin-top: 0.3em;
+            }
+            img {
+                width: 50%;
+                margin: 1em;
             }
 
             .bold {

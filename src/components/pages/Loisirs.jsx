@@ -27,7 +27,7 @@ const Loisirs = ({title}) => {
                     </div>
                     <div className="info">
                         <div className="image">
-                            <img src="img/kb.gif" alt="basket-ball"/>
+                            <img src="img/basket.jpg" alt="basket-ball"/>
                         </div>
                         <div className="citation">
                             <p> 
@@ -44,7 +44,7 @@ const Loisirs = ({title}) => {
                     </div>
                     <div className="info">
                         <div className="image">
-                            <img className="cook" src="img/cook.gif" alt="cuisiner"/>
+                            <img className="cook" src="img/cuisine.jpg" alt="cuisiner"/>
                         </div>
                         <div className="citation">
                             <p> 
@@ -60,7 +60,7 @@ const Loisirs = ({title}) => {
                     </div>
                     <div className="info">
                         <div className="image">
-                            <img className="gaming" src="img/game.gif" alt="jeux-vidéo"/>
+                            <img className="gaming" src="img/console.jpg" alt="films et séries"/>
                         </div>
                         <div className="citation">
                             <p> 
@@ -77,7 +77,7 @@ const Loisirs = ({title}) => {
                     </div>
                     <div className="info">
                         <div className="image">
-                            <img className="movie" src="img/movie.gif" alt="films et séries"/>
+                            <img className="movie" src="img/film.jpg" alt="films et séries"/>
                         </div>
                         <div className="citation">
                             <p> 
@@ -93,7 +93,7 @@ const Loisirs = ({title}) => {
                     </div>
                     <div className="info">
                         <div className="image">
-                            <img className="travel" src="img/travel.gif" alt="voyage"/>
+                            <img className="travel" src="img/travel.jpg" alt="voyage"/>
                         </div>
                         <div className="citation">
                             <p> 
