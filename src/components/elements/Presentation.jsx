@@ -4,7 +4,7 @@ const Presentation = () => {
 
     useEffect(() => {
           const bgImage = require('../../assets/img/bg-desktop' +
-            Math.floor(Math.random() * 6 + 1) +
+            Math.floor(Math.random() * 4 + 1) +
             '.jpg')
     
           document.getElementById("background").style.backgroundImage = `url(${bgImage})`

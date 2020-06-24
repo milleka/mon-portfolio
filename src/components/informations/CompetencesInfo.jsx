@@ -3,7 +3,7 @@ import React from 'react';
 const CompetencesInfo = () => {
     return (
         <div className="information">
-            <h4>Langages/logiciels utilisés</h4>
+            <h4>Framework/librairies/logiciels utilisés</h4>
                 <div className="party">
                     <i className="fab fa-wordpress wp"><p>Wordpress</p></i>
                     <i className="fab fa-react react"><p>ReactJs</p></i>

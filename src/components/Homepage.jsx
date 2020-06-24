@@ -19,7 +19,7 @@ function Homepage({title}) {
           <h2 className="subtitle">{title}</h2>
           <div className="me">
             <div className="image">
-              <img src="img/moi.png" alt="mon logo" title="Accueil"/>
+              <img src="img/moi.jpg" alt="mon logo" title="Accueil"/>
             </div>
             <div className="text">
               <h3>Qui suis-je ?</h3>
