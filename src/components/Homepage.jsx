@@ -29,8 +29,8 @@ function Homepage({title}) {
                 J'ai donc décidé de me réorienter. J'ai commencé par une formation pour adulte
                 (Simplon), qui m'a permis d'obtenir un bac +2 développeurs web et web mobile,
                 et 2 certificats (Opquast et méthode agile). Souhaitant développer mes connaissances
-                en développement et réseaux, j'ai décidé de continuer dans une école d'ingénieur (3iL)
-                afin d'obtenir un bac +3. Aujourd'hui, afin de réussir parfaitement cette reconversion,
+                en développement et réseaux, j'ai décidé de continuer dans une école d'ingénieur (3iL), 
+                section bachelor, afin d'obtenir un bac +3. Aujourd'hui, afin de réussir parfaitement cette reconversion,
                 je suis à la recherche d'un emploi en tant que développeur web junior.
               </p>
               <p>Ce portfolio vous présente mon histoire.</p>
@@ -53,14 +53,10 @@ function Homepage({title}) {
             <li></li>
             <li></li>
           </ul>
-          <div className="ligne espace">
             <Cards title="Compétences" src="img/competences.jpg"/>
             <Cards title="Expériences" src="img/experiences.jpg" />
-          </div>
-          <div className="ligne">
             <Cards title="Formations" src="img/formation.jpg" />
             <Cards title="Loisirs" src="img/loisir.jpg" />
-          </div>
         </div>
       </main>
 
