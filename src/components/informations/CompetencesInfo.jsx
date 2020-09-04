@@ -16,7 +16,7 @@ const CompetencesInfo = () => {
                     <i className="fab fa-sass sass"><p>Sass</p></i>
                     <i className="fab fa-bootstrap bt"><p>Bootstrap</p></i>
                 </div>
-            <h4>Langages Appris</h4>
+            <h4>Librairies/Framework Appris</h4>
                 <div className="party">
                     <i className="fab fa-angular angu"><p>Angular</p></i>
                     <i className="fab fa-laravel lrv"><p>Laravel</p></i>
